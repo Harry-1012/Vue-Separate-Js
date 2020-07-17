@@ -7,7 +7,11 @@
 将JS从Vue中分离出来作为单JS文件
 
 
-python 3+
+![1](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
+
+![2](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
+
+![3](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
 
 1.copy the .vue file to dist/ directory
 

@@ -42,7 +42,7 @@ def modifyFile(fileList,index):
     if index < (len(fileList)-1):
         modifyFile(fileList,index+1)
     else:
-        print('success,all '+ str(index)+' files')      
+        print('success,all '+ str(index+1)+'`s files')      
      
 if __name__ == "__main__":
     get_filelist('dist/')
