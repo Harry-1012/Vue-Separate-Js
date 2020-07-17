@@ -7,11 +7,11 @@
 将JS从Vue中分离出来作为单JS文件
 
 
-![1](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
+![1](https://github.com/haoleiqin/Vue-Separate-Js/blob/master/res/img/1.png?raw=true)
 
-![2](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
+![2](https://github.com/haoleiqin/Vue-Separate-Js/blob/master/res/img/2.png?raw=true)
 
-![3](https://raw.githubusercontent.com/haoleiqin/Vue-Separate-Js/master/img/1.png)
+![3](https://github.com/haoleiqin/Vue-Separate-Js/blob/master/res/img/3.png?raw=true)
 
 1.copy the .vue file to dist/ directory
 
