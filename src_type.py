@@ -21,10 +21,11 @@ def modifyFile(fileList,index):
     print('文件：%s' % currentFile)
     with open(currentFile['dir'],'r', encoding='UTF-8') as file_obj:
       content = file_obj.read()
-      scriptContent = (content[content.find('<script>')+8:content.find('</script>')])
+      scriptContent = (content[content.find('<script>'):content.find('</script>')])
       # JS file name
       jsFileName = currentFile['name'].replace('.vue','.js')
-      newVueScript = '\nimport js from "./'+jsFileName+'";\nexport default js;\n'
+      # other way import * ... export 
+      newVueScript = '<script src="./'+jsFileName+'">'
       # replace old script 
       newVueContent = content.replace(scriptContent,newVueScript)
       # rewrite old vue file

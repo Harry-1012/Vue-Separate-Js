@@ -6,6 +6,11 @@
 
 将JS从Vue中分离出来作为单JS文件
 
+1.复制需要分离的.vue文件进 dist文件夹中
+2.两种分离形式
+  a.分离为 <script src="./index.js"></script> 方式,运行 python src_type.py
+  b.分离为 import js form './index.js'; export default js;
+
 1.copy the .vue file to dist/ directory
 
 2.run python main.py
@@ -19,6 +24,8 @@ do not include // </script>  or /** </script> **/
 the script tag can not include in comments
 
 ```
+
+Python 3
 
 ![1](https://github.com/haoleiqin/Vue-Separate-Js/blob/master/res/img/1.png?raw=true)
 
