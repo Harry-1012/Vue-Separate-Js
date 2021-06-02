@@ -12,7 +12,7 @@
 #####  b.分离为 import js form './index.js'; export default js;
 
 #### 1.copy the .vue file to dist/ directory
-#### 2.run python main.py
+#### 2.run python src_type.py
 #### 3.check the result in dist/ directory
 
 ```
